@@ -10,12 +10,12 @@ public class Node
 }
 Node removeDuplicates(Node head)
     {
-        Node root= head;
+        Node temp= head;
         while(head!=null)
         {
 	    while(head.next!=null && head.data==head.next.data)
 	    head.next=head.next.next;
 	    head=head.next;
         }
-        return root;
+        return temp;
     }
