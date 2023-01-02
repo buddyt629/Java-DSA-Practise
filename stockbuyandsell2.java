@@ -1,3 +1,5 @@
+// this code will give maximum profit if the questions says that wwe can buy and sell thw stock many times to gain maximum profit out nof my working days
+
 public class stockbuyandsell2 {
     public static int stockbuyandsell(int arr[])
     {
