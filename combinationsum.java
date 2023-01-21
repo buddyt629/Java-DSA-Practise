@@ -1,6 +1,6 @@
 public class combinationsum{
     static void printSubsequences(int[] input, int k, int index, String output) {
-        if (index <= input.length) {
+        if (index == input.length) {
             if (k == 0) {
                 System.out.println(output);
             }
