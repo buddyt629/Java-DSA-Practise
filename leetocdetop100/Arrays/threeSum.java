@@ -1,4 +1,6 @@
-class threeSum {
+import java.util.*;
+
+class threeSumm {
     public  List<List<Integer>> threeSum(int[] nums) {
     Set<List<Integer>> res  = new HashSet<>();
     if(nums.length==0) return new ArrayList<>(res);
